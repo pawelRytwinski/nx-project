@@ -1,6 +1,6 @@
 import { getGreeting } from '../support/app.po';
 
-describe('todos', () => {
+describe.skip('welcome message', () => {
   beforeEach(() => cy.visit('/'));
 
   it('should display welcome message', () => {
